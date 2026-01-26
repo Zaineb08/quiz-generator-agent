@@ -1,6 +1,7 @@
 # 🎓 SmartQuiz — Quiz IA Adaptatif
 
 SmartQuiz est une application web interactive qui génère des QCM personnalisés grâce à l’IA (Groq API) et adapte la difficulté selon vos réponses. Elle propose une expérience moderne, sécurisée, et pédagogique, avec export des résultats et attestation PDF.
+![quiz exemple](assets/question%20exemple%20quiz.png)
 
 ---
 
@@ -23,9 +24,9 @@ SmartQuiz est une application web interactive qui génère des QCM personnalisé
 ---
 
 ## 🧑‍💻 Fonctionnalités principales
-
+![Bienvenue](assets/Bienvenue%20quiz.png)
 - **Quiz IA adaptatif** : questions générées par l’IA, difficulté ajustée selon vos réponses (niveau Beginner, Intermediate, Advanced)
-- **Paramètres administrateur** : personnalisez le prompt, le modèle, la température, le nombre de tokens, et la clé Groq API (saisie sécurisée, non stockée)
+- **Paramètres administrateur** : personnalisez le modèle, la température, le nombre de tokens, et la clé Groq API (saisie sécurisée, non stockée)
 - **Sécurité** : chaque utilisateur entre sa propre clé API, jamais stockée
 - **Timer automatique** : le quiz s’arrête à la fin du temps imparti
 - **Export des résultats** : téléchargez vos réponses et corrections au format JSON
@@ -37,7 +38,7 @@ SmartQuiz est une application web interactive qui génère des QCM personnalisé
 ---
 
 ## 📝 Utilisation
-
+![Utilisation et configuration](assets/configuration%20quiz.png)
 1. **Accueil** : Entrez votre nom, le sujet, le niveau de départ, le nombre de questions (5-100) et la durée (1-180 min).
 2. **Quiz** : Répondez aux questions générées par l’IA avant la fin du temps.
 3. **Fin du quiz** :
@@ -70,7 +71,8 @@ SmartQuiz est une application web interactive qui génère des QCM personnalisé
 ---
 
 ## 📦 Export et correction
-
+![Fin quiz image](assets/fin%20quiz.png)
+![verifier reponses image](assets/verifier%20reponses.png)
 - À la fin du quiz, cliquez sur **Exporter mes réponses** pour télécharger un fichier JSON contenant :
   - Toutes les questions posées
   - Vos réponses
@@ -105,3 +107,4 @@ SmartQuiz est une application web interactive qui génère des QCM personnalisé
 Projet open-source sous licence MIT.
 
 ---
+
