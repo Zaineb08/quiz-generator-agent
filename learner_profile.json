@@ -1,0 +1,16 @@
+{
+  "scores": {
+    "python": {
+      "correct": 32,
+      "total": 52
+    },
+    "transformers": {
+      "correct": 5,
+      "total": 9
+    },
+    "linkedin": {
+      "correct": 3,
+      "total": 9
+    }
+  }
+}

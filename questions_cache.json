@@ -1,0 +1,149 @@
+{
+  "questions": [
+    {
+      "hash": "3ddcdad74d64ac50d6c91deeb7f1c0ff",
+      "id": "q_1",
+      "topic": "python",
+      "level": "Beginner",
+      "question": "Comment définir une variable en Python qui doit contenir une chaîne de caractères, mais qui peut également être null ?",
+      "options": [
+        "string = None",
+        "string = '' ou string = None",
+        "string = str() ou string = None",
+        "string = '' ou string = 'null'"
+      ],
+      "correct_answer": "string = '' ou string = None",
+      "type": "MCQ",
+      "user_choice": "string = None"
+    },
+    {
+      "hash": "fb9bd160805a2369051a934ed8bc0899",
+      "id": "q_1",
+      "topic": "python",
+      "level": "Beginner",
+      "question": "Quel est le résultat de la concaténation de deux chaînes de caractères en Python lorsque l'une d'elles est une chaîne vide ?",
+      "options": [
+        "La chaîne résultante est vide",
+        "La chaîne résultante est la chaîne non vide",
+        "La chaîne résultante est une chaîne avec un espace",
+        "La chaîne résultante est une erreur de type"
+      ],
+      "correct_answer": "La chaîne résultante est la chaîne non vide",
+      "type": "MCQ",
+      "user_choice": "La chaîne résultante est la chaîne non vide"
+    },
+    {
+      "hash": "ff691455cb698aa1604529138ed38138",
+      "id": "q_1",
+      "topic": "python",
+      "level": "Beginner",
+      "question": "Quelle est la principale différence entre les équivalents `print()` et `console.log()` dans Python ?",
+      "options": [
+        "Ils servent tous les deux à imprimer des messages dans la console.",
+        "Ils sont utilisés pour afficher les résultats de calculs.",
+        "`print()` est utilisé pour les variables de type entier, tandis que `console.log()` est utilisé pour les strings.",
+        "Les deux fonctions sont utilisées pour afficher des messages dans la console, mais `print()` est plus rapide que `console.log()`."
+      ],
+      "correct_answer": "Ils servent tous les deux à imprimer des messages dans la console.",
+      "type": "MCQ",
+      "user_choice": "Ils servent tous les deux à imprimer des messages dans la console."
+    },
+    {
+      "hash": "7f11d4064b03a96917643a7fc5b39ad6",
+      "id": "q_1",
+      "topic": "python",
+      "level": "Beginner",
+      "question": "Quel est le type de variable qui est modifiable en Python ?",
+      "options": [
+        "Liste",
+        "Tuple",
+        "Dictionnaire",
+        "Variable globale"
+      ],
+      "correct_answer": "Liste",
+      "type": "MCQ",
+      "user_choice": "Tuple"
+    },
+    {
+      "hash": "fcc662991a98286cddf076d7adde3271",
+      "id": "q_5",
+      "topic": "python",
+      "level": "Beginner",
+      "question": "Comment définir une variable dans Python qui peut contenir plusieurs valeurs différentes à la fois ?",
+      "options": [
+        "En utilisant la définition de variable avec un type spécifique",
+        "En utilisant une liste pour stocker plusieurs valeurs",
+        "En utilisant une variable avec un type de données objet",
+        "En utilisant la fonction set() pour stocker des valeurs uniques"
+      ],
+      "correct_answer": "En utilisant une liste pour stocker plusieurs valeurs",
+      "type": "MCQ",
+      "user_choice": "En utilisant la définition de variable avec un type spécifique"
+    },
+    {
+      "hash": "0c1d8d3a42d87c61008b3b6198f5381e",
+      "id": "q_1",
+      "topic": "python",
+      "level": "Beginner",
+      "question": "Un programme Python utilise un bloc de code dans un if/else pour afficher un message différent en fonction de la valeur d'une variable. La variable est définie comme suit : `x = input(\"Entrez un nombre : \")`. Quel est le type de conversion nécessaire pour utiliser la valeur de `x` dans l'expression conditionnelle ?",
+      "options": [
+        "Intégrer directement `x` dans l'expression conditionnelle",
+        "Convertir `x` en entier en utilisant `int(x)`",
+        "Convertir `x` en chaîne de caractères en utilisant `str(x)`",
+        "Convertir `x` en booléen en utilisant `bool(x)`"
+      ],
+      "correct_answer": "Convertir `x` en entier en utilisant `int(x)`",
+      "type": "MCQ",
+      "user_choice": "Intégrer directement `x` dans l'expression conditionnelle"
+    },
+    {
+      "hash": "e0ca3e172689d39cbffcb18f43480076",
+      "id": "q_1",
+      "topic": "python",
+      "level": "Beginner",
+      "question": "Quel est le résultat de l'exécution du code suivant : `x = 5; y = 3; print(x / y)` ?",
+      "options": [
+        "La variable `y` est divisée par `x`",
+        "Le programme s'exécute sans erreur et affiche le résultat de la division",
+        "Une erreur `ZeroDivisionError` est levée car `y` est égal à zéro",
+        "La variable `x` est divisée par 3"
+      ],
+      "correct_answer": "Le programme s'exécute sans erreur et affiche le résultat de la division",
+      "type": "MCQ",
+      "user_choice": "La variable `y` est divisée par `x`"
+    },
+    {
+      "hash": "dd4c3b8259a13cc1ec30dc49357d6a8e",
+      "id": "q_8",
+      "topic": "python",
+      "level": "Beginner",
+      "question": "Quelle sera l'issue de l'exécution du code suivant ?",
+      "options": [
+        "Un TypeError sera levé car on ne peut pas multiplier un entier par une chaîne de caractères.",
+        "Une valeur de 10 sera affichée.",
+        "Un ValueError sera levé car on ne peut pas convertir une chaîne de caractères en entier.",
+        "Une boucle infinie sera créée."
+      ],
+      "correct_answer": "Une valeur de 10 sera affichée.",
+      "type": "MCQ",
+      "user_choice": "Un TypeError sera levé car on ne peut pas multiplier un entier par une chaîne de caractères."
+    },
+    {
+      "hash": "b81fd60cf6959c0e9538e83da583a95a",
+      "id": "q_8",
+      "topic": "python",
+      "level": "Beginner",
+      "question": "Quel est le résultat de la fonction `print()` en Python lorsque vous appelez `print('hello' + ' ' + 'world')` ?",
+      "options": [
+        "hello world",
+        "hello, world",
+        "hello world\n",
+        "Un TypeError sera levé"
+      ],
+      "correct_answer": "hello world",
+      "type": "MCQ",
+      "user_choice": "hello world"
+    }
+  ],
+  "session_asked": []
+}

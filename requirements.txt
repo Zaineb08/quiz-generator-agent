@@ -1,0 +1,6 @@
+streamlit
+groq
+pydantic
+matplotlib
+numpy
+reportlab
