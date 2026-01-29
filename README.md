@@ -1,6 +1,7 @@
 # 🎓 SmartQuiz — Quiz IA Adaptatif
 
 SmartQuiz est une application web interactive qui génère des QCM personnalisés grâce à l’IA (Groq API) et adapte la difficulté selon vos réponses. Elle propose une expérience moderne, sécurisée, et pédagogique, avec export des résultats et attestation PDF.
+Link demo: https://quiz-generator-agent.streamlit.app/
 
 Capture de l'application:
 
@@ -110,5 +111,6 @@ Capture de l'application:
 Projet open-source sous licence MIT.
 
 ---
+
 
 
